@@ -1,0 +1,103 @@
+canonical_identifier: bkk:krp/KR6q0284/v1
+canonical_location: https://kanripo.org/bkk/KR6q0284/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 保寧仁勇禪師語錄
+  identifiers:
+    alt_id:
+    - X69n1350
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X69/X69n1350.xml
+    old_id: X69n1350
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6q0284_000.yaml, hash: 'sha256:3dcf14465aabca040c9129233033d1b4a8006e9eec0b72a475f877895776df14'}
+  - {seq: 1, filename: KR6q0284_001.yaml, hash: 'sha256:0e06877e4cb9513e24a63bd4dcfd865bbe47b0fafd33beaf18e4423ba1e49f29'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6q0284_000.markers.yaml, hash: 'sha256:f3b30f21bd0c689fe8b82e26d0244bfd915b0b382cea632971e0197f8c724cf2'}
+  - {seq: 1, role: markers, filename: assets/KR6q0284_001.markers.yaml, hash: 'sha256:3aa5daa6dcab92e2f14b4cb06426b125189344a02a7cb350025580caa4746613'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6q0284_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: No. 1350-A 金陵保寧禪院勇禪師語錄序
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6q0284_X_000-mulu-2
+    span:
+    - front
+    - 197
+    - 197
+  label: No. 1350-B 開堂疏
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6q0284_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 20344
+  label: 保寧禪院勇和尚語錄
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6q0284_X_001-mulu-1
+    span:
+    - body
+    - 17
+    - 17
+  label: 上堂
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6q0284_X_001-mulu-2
+    span:
+    - body
+    - 15205
+    - 15205
+  label: 頌古
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6q0284_X_001-mulu-3
+    span:
+    - body
+    - 20191
+    - 20191
+  label: 別古
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6q0284_X_001-mulu-4
+    span:
+    - body
+    - 20256
+    - 20256
+  label: 代古
+  type: mulu
+  level: 1
+hash: sha256:ad3a262af88514843cdfbabc6585df8ef0447d5f7758edc833346245aa4bf878
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
